@@ -96,22 +96,14 @@ textarea {
    ========================================================================== */
 
 
-body {
-    background-color: #ddd;
-}
+body {background-color: #ddd;}
+h1 { text-transform: uppercase; color: #0a9b50; text-align: center;}
+.wrapper {max-width: 800px; margin:0 auto;}
+
 .button-list {list-style-type: none; padding: 0 10px;}
 .button-list li {margin-bottom: 20px;}
-.button-list li a {display: block; padding: 2%; text-decoration: none; color: #fff; background-color:#0a9b50;}
-
-
-
-
-
-
-
-
-
-
+.button-list li a {display: block; padding: 2%; text-decoration: none; color: #fff; background-color:#0a9b50; text-align: center;}
+.button-list li a:hover, .button-list li a:focus {opacity: 0.8;}
 
 
 
