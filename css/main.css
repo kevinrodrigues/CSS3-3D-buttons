@@ -97,12 +97,11 @@ textarea {
 
 
 body {
-    background-color: #ccc;
+    background-color: #ddd;
 }
-
-.button-list ul li a {
-    display: block;
-}
+.button-list {list-style-type: none; padding: 0 10px;}
+.button-list li {margin-bottom: 20px;}
+.button-list li a {display: block; padding: 2%; text-decoration: none; color: #fff; background-color:#0a9b50;}
 
 
 
