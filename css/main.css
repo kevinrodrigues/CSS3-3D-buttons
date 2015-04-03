@@ -111,11 +111,12 @@ h1 { text-transform: uppercase; color: #0a9b50; text-align: center;}
 .btn {
     position:relative;
     background-color: none;
+    text-decoration: none;
+    color:#fff;
     padding:28px 90px;
     display:inline-block;
     text-transform: uppercase;
     margin:15px 30px;
-    color:inherit;
     letter-spacing: 2px;
     font-size: .9em;
     -moz-transition: all 0.4s;
@@ -132,25 +133,36 @@ h1 { text-transform: uppercase; color: #0a9b50; text-align: center;}
 }
 .btn-3d {
     display:block;
-    background-color: #5cbcf6;
+    background-color: #0a9b50;
     transform-style:preserve-3d;
 }
-.btn-3d:after {
+.btn-one:after {
     width:100%;
     height:42%;
     left:0;
     top:-40%;
-    background-color: #53a6d7;
+    background-color: #0a8b50;
     transform-origin:0% 100%;
     transform:rotateX(90deg);
 }
 
-
-.btn-3d:hover {
+.btn-one:hover {
     transform:rotateX(-45deg);
 }
-.btn:hover, .btn:focus {opacity: 0.8;}
 
+.btn-two:after {
+    width:100%;
+    height:40%;
+    left:0;
+    top:100%;
+    background-color: #0a8b50;
+    transform-origin:0% 0%;
+    transform:rotateX(-90deg);
+}
+
+.btn-two:hover {
+    transform:rotateX(35deg);
+}
 
 
 
