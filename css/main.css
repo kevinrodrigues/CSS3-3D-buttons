@@ -100,9 +100,14 @@ body {background-color: #ddd;}
 h1 { text-transform: uppercase; color: #0a9b50; text-align: center;}
 .wrapper {max-width: 800px; margin:0 auto;}
 
-.button-list {list-style-type: none; padding: 0 10px; -webkit-perspective:800px; -moz-perspective:800px; display:inline-block;}
+.button-list {list-style-type: none; padding: 0 10px;}
 .button-list li {margin-bottom: 20px;}
-
+.perspective {
+     -webkit-perspective:800px;
+     -moz-perspective:800px;
+     perspective:800px;
+     display:inline-block;
+}
 .btn {
     position:relative;
     background-color: none;
@@ -142,7 +147,7 @@ h1 { text-transform: uppercase; color: #0a9b50; text-align: center;}
 
 
 .btn-3d:hover {
-    transform:rotate(-45deg);
+    transform:rotateX(-45deg);
 }
 .btn:hover, .btn:focus {opacity: 0.8;}
 
